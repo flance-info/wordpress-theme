@@ -25,18 +25,7 @@
 												src="./wp-content/themes/masterstudy-lms-starter-child/assets/images/iconbtnright.svg"
 										/>
 									</button>
-									<div class="input-search">
-										<div class="input-element">
-											<img
-													class="icon-addon"
-													loading="lazy"
-													alt=""
-													src="./wp-content/themes/masterstudy-lms-starter-child/assets/images/iconaddon.svg"
-											/>
-
-											<div class="search">Search</div>
-										</div>
-									</div>
+											<?php get_template_part( 'templates/header/parts/search-course-header' ); ?>
 								</div>
 							</div>
 						</div>
