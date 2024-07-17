@@ -1,4 +1,19 @@
 .theme-ms-lms-starter-theme {
+  .stm-selector {
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw !important;
+	position: relative !important;
+	right: 50%;
+	width: 100vw !important;
+  }
+.footer {
+
+    background-color: transparent;
+
+
+}
   .main-redcontable-new {
 	/* fonts */
 	--typography-text-base-500: Inter;
@@ -2861,7 +2876,6 @@
 	  align-self: stretch;
 	  position: relative;
 	  line-height: 24px;
-	  white-space: pre-wrap;
 	}
 
 	.andrew-jackson {
@@ -2932,7 +2946,6 @@
 	  align-self: stretch;
 	  position: relative;
 	  line-height: 24px;
-	  white-space: pre-wrap;
 	}
 
 	.john-mike {
