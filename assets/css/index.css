@@ -133,6 +133,14 @@
 .theme-ms-lms-starter-theme .main-redcontable-new .stm_lms_account_dropdown .dropdown button i {
   background-color: red !important;
 }
+.theme-ms-lms-starter-theme .main-redcontable-new .stm_lms_account_dropdown .dropdown button {
+  font-weight: 400;
+  padding: 9px 22px;
+  font-size: 14px;
+  border-radius: 23px;
+  outline: 0 !important;
+  transition: 0.3s ease;
+}
 .theme-ms-lms-starter-theme .main-redcontable-new .nav {
   width: 205px;
   display: flex;
