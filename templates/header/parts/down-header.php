@@ -31,7 +31,7 @@
 												src="./wp-content/themes/masterstudy-lms-starter-child/assets/images/iconbtnright.svg"
 										/>
 									</button>
-											<?php get_template_part( 'templates/header/parts/search-course-header' ); ?>
+									<?php get_template_part( 'templates/header/parts/search-course-header' ); ?>
 								</div>
 							</div>
 						</div>
@@ -46,7 +46,7 @@
 									/>
 								</div>
 								<?php
-									get_template_part( 'templates/header/parts/authorization-links-header' );
+								get_template_part( 'templates/header/parts/authorization-links-header' );
 								?>
 
 							</div>

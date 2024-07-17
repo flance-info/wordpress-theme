@@ -81,7 +81,7 @@
 	overflow: hidden;
 	flex-direction: column;
 	justify-content: flex-start;
-	padding: 0 0 51px;
+	padding: 0 0 10px;
 	gap: var(--gap-3xs);
 	line-height: normal;
 	letter-spacing: normal;
@@ -2787,6 +2787,7 @@
 	  font-size: var(--font-size-5xl);
 	  color: var(--bg-static-bg-white);
 	  font-family: var(--typography-text-h2);
+	  padding-bottom: 0px;
 	}
 
 	.heading {
