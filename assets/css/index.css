@@ -584,7 +584,7 @@
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
-  background-image: url(./wp-content/themes/masterstudy-lms-starter-child/assets/images/bannermain@3x.png);
+  background-image: url(/wp-content/themes/masterstudy-lms-starter-child/assets/images/bannermain@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -2460,6 +2460,9 @@
   font-family: var(--typography-text-h2);
   padding-bottom: 0px;
 }
+.theme-ms-lms-starter-theme .main-redcontable-new .logo-wrapper-wrapper h1.title {
+  color: #fff;
+}
 .theme-ms-lms-starter-theme .main-redcontable-new .heading {
   margin: 0;
   flex: 1;
@@ -3076,6 +3079,24 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: var(--gap-xl);
+}
+.theme-ms-lms-starter-theme .wrapper .main-redcontable-new .logo-wrapper-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 9px 109px 9px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--bg-static-bg-white);
+  font-family: var(--typography-text-h2);
+  padding-bottom: 0px;
+}
+.theme-ms-lms-starter-theme .wrapper {
+  padding-top: 0px;
 }
 
 .footer-wrapper, .main-redcontable-new {

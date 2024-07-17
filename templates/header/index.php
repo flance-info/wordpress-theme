@@ -1,7 +1,10 @@
 <header class="header" id="header">
-<?php
+	<?php
 	get_template_part( 'templates/header/parts/top-header' );
-	get_template_part( 'templates/header/parts/down-header' );
 	?>
-
+	<div class="container">
+		<?php
+		get_template_part( 'templates/header/parts/down-header' );
+		?>
+	</div>
 </header>
