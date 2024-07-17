@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../locofy/.idea/locofy.iml" filepath="$PROJECT_DIR$/../../../locofy/.idea/locofy.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../plugins/masterstudy-elementor-widgets/.idea/masterstudy-elementor-widgets.iml" filepath="$PROJECT_DIR$/../../plugins/masterstudy-elementor-widgets/.idea/masterstudy-elementor-widgets.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../plugins/masterstudy-lms-learning-management-system/.idea/masterstudy-lms-learning-management-system.iml" filepath="$PROJECT_DIR$/../../plugins/masterstudy-lms-learning-management-system/.idea/masterstudy-lms-learning-management-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../plugins/masterstudy-lms-learning-management-system-pro/.idea/masterstudy-lms-learning-management-system-pro.iml" filepath="$PROJECT_DIR$/../../plugins/masterstudy-lms-learning-management-system-pro/.idea/masterstudy-lms-learning-management-system-pro.iml" />
