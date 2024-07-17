@@ -31,15 +31,4 @@ $search_category_dropdown_bg_color = get_theme_mod( 'ms_lms_starter_search_categ
 	<?php \STM_LMS_Templates::show_lms_template( 'elementor-widgets/courses-searchbox/ms-lms-courses-searchbox', $search_options ); ?>
 </div>
 
-<div class="input-search">
-	<div class="input-element">
-		<img
-				class="icon-addon"
-				loading="lazy"
-				alt=""
-				src="./wp-content/themes/masterstudy-lms-starter-child/assets/images/iconaddon.svg"
-		/>
 
-		<div class="search">Search</div>
-	</div>
-</div>

@@ -1,5 +1,5 @@
 .main-redcontable-new {
-   /* fonts */
+  /* fonts */
   --typography-text-base-500: Inter;
   --typography-text-base-5001: Roboto;
   --typography-text-h2: "Poppins SemiBold";
@@ -72,7 +72,7 @@
 
   /* Effects */
   --btn-effect: 0px 7px 12px rgba(255, 255, 255, 0.08) inset,
-    0px -2px 2px rgba(48, 48, 48, 0.1) inset;
+  0px -2px 2px rgba(48, 48, 48, 0.1) inset;
   --shadows-shadow-1: 0px 1px 2px rgba(128, 128, 128, 0.12);
   width: 100%;
   position: relative;
@@ -97,6 +97,41 @@
   .electronics, .fashion {
 	flex: 1;
 	min-width: 68px;
+  }
+
+  .ms_lms_course_search_box__search_input.search_button_inside .ms_lms_course_search_box__search_input_button {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: 0 0;
+  }
+
+  .ms_lms_course_search_box__search_input .autocomplete-wrapper input[type=text] {
+	display: flex;
+	width: 100%;
+	background-color: #fff;
+	height: auto;
+	line-height: 1;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: "Albert Sans", sans-serif;
+	border: 1px solid #DBE0E9;
+	border-radius: 0;
+	color: #808C98;
+	box-shadow: var(--shadows-shadow-1);
+	border-radius: var(--num-radius-base1);
+	background-color: var(--background-bg-secondary);
+	border: 1px solid var(--border-border-default);
+  }
+
+  .ms_lms_course_search_box__search_input.search_button_inside .ms_lms_course_search_box__search_input_button i {
+	color: #2a3045;
+	font-size: 20px;
+  }
+
+  .ms_lms_course_search_box__search_input.search_button_inside .autocomplete-wrapper input[type=text] {
+	height: 35px;
+	padding: 10px 60px 10px 15px;
   }
 
   .electronics {
