@@ -13,7 +13,7 @@
 
 			if ( defined( 'MS_LMS_VERSION' ) ) {
 				get_template_part( 'templates/header/parts/search-course' );
-				get_template_part( 'templates/header/parts/authorization-links' );
+
 			}
 			?>
 		</section>
