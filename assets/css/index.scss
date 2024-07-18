@@ -733,7 +733,7 @@
 	}
 
 	.button-card {
-	  width: 280px;
+	  width: auto;
 	  box-shadow: var(--shadows-shadow-1);
 	  background-color: var(--bg-static-bg-white);
 	  border: 1px solid var(--border-border-default);
@@ -743,6 +743,7 @@
 	  flex-direction: row;
 	  padding: var(--padding-3xs) var(--num-padding-12);
 	  gap: var(--num-gap-12);
+	  flex-basis: calc(25% - 18.7px);
 	}
 
 	.button-card-child {
