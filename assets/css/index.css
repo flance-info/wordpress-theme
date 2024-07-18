@@ -991,6 +991,7 @@
   line-height: 140%;
   font-weight: 500;
   font-family: var(--typography-text-base-5001);
+  min-height: 80px;
 }
 .theme-ms-lms-starter-theme .main-redcontable-new .by-alex-johnson, .theme-ms-lms-starter-theme .main-redcontable-new .hours {
   position: relative;
