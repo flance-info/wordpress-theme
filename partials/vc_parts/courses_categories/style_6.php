@@ -20,11 +20,11 @@ if ( ! empty( $taxonomy ) ) :
 		$terms = explode( ',', str_replace( ' ', '', $taxonomy ) );
 	}
 	?>
-	<div class="main-redcontable-new">
-		<section class="logo-wrapper-wrapper">
+	<div class="main-redcontable-new no-main-padding">
+		<section class="logo-wrapper-wrapper stm-nopadding">
 			<div class="logo-wrapper">
 				<div class="top-subjects-parent">
-					<h2 class="top-subjects">Top subjects</h2>
+					<h2 class="top-subjects"><?php echo esc_html__( 'Top subjects', 'starter-text-domain' ) ?></h2>
 					<div class="button-card-parent">
 
 						<?php

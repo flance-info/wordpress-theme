@@ -124,6 +124,15 @@
 	  background: 0 0;
 	}
 
+	.e-con-inner {
+	  margin: 0px !important;
+	}
+
+	.stm-nopadding {
+	  padding-left: 0px !important;
+	  padding-right: 0px !important;
+	}
+
 	.ms_lms_course_search_box__search_input .autocomplete-wrapper input[type=text] {
 	  display: flex;
 	  width: 100%;
@@ -3081,7 +3090,7 @@
 	}
 
 	.content {
-	  width: 1180px;
+	  width: 1110px;
 	  overflow: hidden;
 	  flex-direction: row;
 	  flex-wrap: wrap;
@@ -3517,7 +3526,7 @@
 	}
 
 	.footer-content {
-	  width: 1186px;
+	  width: 1110px;
 	  align-items: flex-start;
 	  justify-content: space-between;
 	  gap: var(--gap-xl);
@@ -3578,7 +3587,7 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .theme-ms-lms-starter-theme {
+  .theme-ms-lms-starter-theme {
 	.main-redcontable-new {
 	  .container {
 
@@ -3633,7 +3642,7 @@
 }
 
 @media screen and (max-width: 450px) {
-      .theme-ms-lms-starter-theme {
+  .theme-ms-lms-starter-theme {
 	.main-redcontable-new {
 	  .container {
 
@@ -3689,7 +3698,6 @@
 }
 
 @media screen and (max-width: 1050px) {
-
 
 
 }

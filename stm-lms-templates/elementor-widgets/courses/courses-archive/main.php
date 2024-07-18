@@ -1,5 +1,5 @@
-<div class="main-redcontable-new">
-	<section class="logo-wrapper-wrapper">
+<div class="main-redcontable-new no-main-padding">
+	<section class="logo-wrapper-wrapper stm-nopadding">
 		<div class="logo-wrapper">
 			<div class="popular-courses">
 				<div class="popular-courses-container">
@@ -8,7 +8,7 @@
 							<h2 class="cursos-populares"><?php echo esc_html( $title_text ); ?></h2>
 						</div>
 					<?php } ?>
-					<div class="container">
+					<div class="container stm-nopadding">
 						<?php if ( ! empty( $courses ) && is_array( $courses ) ) { ?>
 
 							<?php
