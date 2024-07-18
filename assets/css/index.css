@@ -129,6 +129,9 @@
   color: #2a3045;
   font-size: 20px;
 }
+.theme-ms-lms-starter-theme .main-redcontable-new .container:before, .theme-ms-lms-starter-theme .main-redcontable-new .container:after {
+  display: none;
+}
 .theme-ms-lms-starter-theme .main-redcontable-new .ms_lms_course_search_box__search_input.search_button_inside .autocomplete-wrapper input[type=text] {
   height: 37px;
   padding: 10px 60px 10px 15px;
@@ -3135,6 +3138,10 @@
   }
 }
 @media screen and (max-width: 1050px) {
+  .theme-ms-lms-starter-theme .main-redcontable-new .container {
+    grid-template-columns: repeat(2, minmax(210px, 1fr));
+  }
+
   .topbar-ecommerce {
     flex-wrap: wrap;
   }
@@ -3179,6 +3186,10 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .theme-ms-lms-starter-theme .main-redcontable-new .container {
+    grid-template-columns: repeat(1, minmax(210px, 1fr));
+  }
+
   .call-to-action-wrapper {
     gap: 23px;
   }
