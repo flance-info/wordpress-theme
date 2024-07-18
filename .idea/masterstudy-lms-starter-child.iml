@@ -10,5 +10,7 @@
     <orderEntry type="module" module-name="masterstudy-lms-learning-management-system-pro" />
     <orderEntry type="module" module-name="stm-post-type" />
     <orderEntry type="module" module-name="locofy" />
+    <orderEntry type="module" module-name="masterstudy-lms-learning-management-system" />
+    <orderEntry type="module" module-name="masterstudy-lms-learning-management-system-pro" />
   </component>
 </module>
